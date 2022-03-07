@@ -2,7 +2,7 @@ html {
     background-color: black;
     color: white;
     padding: 40px;
-    font-family: "Space Grotesk";
+    font-family: "Space Grotesk", sans-serif;
 }
 
 .h1-inline {
