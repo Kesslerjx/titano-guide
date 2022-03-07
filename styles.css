@@ -1,0 +1,14 @@
+html {
+    background-color: black;
+    color: white;
+    padding: 40px;
+    font-family: "Space Grotesk";
+}
+
+.h1-inline {
+    display: inline;
+}
+
+.green-color {
+    color: #61CE70;
+}
