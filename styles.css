@@ -1,8 +1,10 @@
-html {
+body {
     background-color: black;
     color: white;
-    padding: 40px;
     font-family: "Space Grotesk", sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
 }
 
 .h1-inline {
@@ -11,4 +13,9 @@ html {
 
 .green-color {
     color: #61CE70;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
 }
