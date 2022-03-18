@@ -4,7 +4,7 @@ body {
     font-family: "Space Grotesk", sans-serif;
     display: flex;
     flex-direction: column;
-    padding: 16px;
+    padding: 20px 5em;
 }
 
 .h1-inline {
@@ -18,4 +18,25 @@ body {
 h2 {
     margin: 0;
     padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.container {
+    padding-top: 25px;
+}
+
+.details-section {
+    border: #61CE70;
+    border-width: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 15px;
+    margin: 50px 0;
+    box-shadow: 0 0 0.5rem white;
 }
