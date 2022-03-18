@@ -34,7 +34,7 @@ h2 {
 .details-section {
     border: #61CE70;
     border-width: 2px;
-    border-radius: 10px;
+    border-radius: 1vw;
     border-style: solid;
     padding: 15px;
     margin: 50px 0;
