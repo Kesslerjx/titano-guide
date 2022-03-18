@@ -32,9 +32,10 @@ h2 {
 }
 
 .details-section {
+    -webkit-appearance: none;
     border: #61CE70;
     border-width: 2px;
-    border-radius: 1vw;
+    border-radius: 5px;
     border-style: solid;
     padding: 15px;
     margin: 50px 0;
