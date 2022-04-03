@@ -10,125 +10,119 @@
 </head>
 <body>
 
-    <div class="header">
-        <div>
-            <h1 class="h1-inline green-color">Titano</h1>
-            <h1 class="h1-inline">Guide</h1>
+    <header>
+        <div class="header-title"><span class="green">Titano</span> Guide</div>
+        <div class="header-links">
+            <a href="https://titano.finance/" target="_blank">Titano Site</a>
+            <a href="https://app.titano.finance/#/account" target="_blank">Your Account</a>
+            <a href="https://pancakeswap.finance/swap" target="_blank">PancakeSwap</a>
+            <a href="https://app.bogged.finance/bsc/swap?tokenIn=BNB&tokenOut=0xBA96731324dE188ebC1eD87ca74544dDEbC07D7f" target="_blank">Bogged</a>
         </div>
-        <p>These instructions are based around using MetaMask, BogSwap, and BNB to acquire Titano</p>
+    </header>
 
-    </div>
-
-    <div class="container">
-    
-        <div class="details">
-
-
-            <div class="details-section">
-                <h2 class="green-color">Required</h2>
-                <ul>
-                    <li>MetaMask</li>
-                    <li>BNB</li>
-                </ul>
-            </div>
-
-            <div class="details-section">
-                <h2  class="green-color">Setup</h2>
-                <h4>Add <a class="green-color" href="https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain" target="_blank">BSC</a> to MetaMask</h4>
-                <ol>
-                    <li>Open MetaMask</li>
-                    <li>Go to Settings</li>
-                    <li>Go to Networks</li>
-                    <li>Press Add Network</li>
-                    <ul>
-                        <li> <span class="green-color">Network Name: </span>Smart Chain</li>
-                        <li><span class="green-color">RPC URL: </span>https://bsc-dataseed.binance.org/</li>
-                        <li><span class="green-color">ChainID: </span>56</li>
-                        <li><span class="green-color">Symbol: </span>BNB</li>
-                        <li><span class="green-color">Block Explorer URL: </span>https://bscscan.com</li>
-                    </ul>
-                    <li>Press Save</li>
-                </ol>
-                <h4>Add Titano to MetaMask</h4>
-                <ol>
-                    <li>Visit <a class="green-color" href="https://coinmarketcap.com/currencies/titano/" target="_blank">CoinMarketCap</a></li>
-                    <li>Copy the contract</li>
-                    <li>Open MetaMask</li>
-                    <ul>
-                        <li>Ensure you're in the Smart Chain wallet and not Ethereum</li>
-                    </ul>
-                    <li>Press Import Tokens</li>
-                    <li>Paste the contract in the Token Address field</li>
-                    <ul>
-                        <li>Everything should autofill</li>
-                    </ul>
-                    <li>Press Import</li>
-                </ol>
-                <h4>Connect your wallet to Titano</h4>
-                <ol>
-                    <li>Visit the Titano <a class="green-color" href="https://app.titano.finance/#/dashboard" target="_blank">dashboard</a></li>
-                    <li>Press Connect Wallet</li>
-                    <li>Use QR code to connect with your wallet</li>
-                </ol>
-                <h4>Connect to BogSwap</h4>
-                <ol>
-                    <li>Visit the Titano <a class="green-color" href="https://app.titano.finance/#/dashboard" target="_blank">dashboard</a></li>
-                    <li>Press Swap</li>
-                    <ul>
-                        <li>It should take you to a page that's setup to swap BNB for Titano</li>
-                    </ul>
-                    <li>Press Connect Wallet</li>
-                    <li>Use WalletConnect to connect to your MetaMask wallet</li>
-                </ol>
-            </div>
-
-            
-            <div class="details-section">
-                <h2 class="green-color">Purchasing</h2>
-                <h4>Acquire BNB</h4>
-                <ul>
-                    <li>Purchase on your preferred exchange or swap another coin for it</li>
-                    <li>There will be a hold period if you purchase on Binance with USD</li>
-                </ul>
-                <h4>Send BNB to your wallet</h4>
-                <ol>
-                    <li>Open MetaMask</li>
-                    <li>Select the BNB token</li>
-                    <li>Select Receive</li>
-                    <li>Copy the address</li>
-                    <ul>
-                        <li>Use this to send BNB from the exchange to your wallet</li>
-                        <li>Verify that the BNB has been received before moving on</li>
-                    </ul>
-                </ol>
-                <h4>Swap BNB for Titano</h4>
-                <ol>
-                    <li>Go back to <a class="green-color" href="https://app.bogged.finance/bsc/swap?tokenIn=BNB&tokenOut=0xBA96731324dE188ebC1eD87ca74544dDEbC07D7f" target="_blank">BogSwap</a></li>
-                    <ul>
-                        <li>Since your wallet should be connect at this point, you should see your BNB balance</li>
-                        <li>Ensure BNB and Titano are in the From and To field</li>
-                    </ul>
-                    <li>Choose the amount of BNB that you want to swap</li>
-                    <li>Leave slippage at 1%</li>
-                    <li>Press Swap</li>
-                    <ul>
-                        <li>It should open up your wallet and prompt you to confirm</li>
-                        <li>If it doesn't, try closing your wallet and trying again</li>
-                        <li>If it fails or you get an error, up the Slippage</li>
-                    </ul>
-                </ol>
-            </div>
-
-            <div class="details-section">
-                <h2 class="green-color">Monitoring</h2>
-                <ul>
-                    <li>You can monitor your account <a class="green-color" href="https://app.titano.finance/#/account" target="_blank">here</a></li>
-                </ul>
-            </div>
-
+    <main>
+        <div class="details-section">
+            <h2 class="green-color">Required</h2>
+            <ul>
+                <li>MetaMask</li>
+                <li>BNB</li>
+            </ul>
         </div>
 
-    </div>
+        <div class="details-section">
+            <h2  class="green-color">Setup</h2>
+            <h4>Add <a class="green-color" href="https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain" target="_blank">BSC</a> to MetaMask</h4>
+            <ol>
+                <li>Open MetaMask</li>
+                <li>Go to Settings</li>
+                <li>Go to Networks</li>
+                <li>Press Add Network</li>
+                <ul>
+                    <li> <span class="green-color">Network Name: </span>Smart Chain</li>
+                    <li><span class="green-color">RPC URL: </span>https://bsc-dataseed.binance.org/</li>
+                    <li><span class="green-color">ChainID: </span>56</li>
+                    <li><span class="green-color">Symbol: </span>BNB</li>
+                    <li><span class="green-color">Block Explorer URL: </span>https://bscscan.com</li>
+                </ul>
+                <li>Press Save</li>
+            </ol>
+            <h4>Add Titano to MetaMask</h4>
+            <ol>
+                <li>Visit <a class="green-color" href="https://coinmarketcap.com/currencies/titano/" target="_blank">CoinMarketCap</a></li>
+                <li>Copy the contract</li>
+                <li>Open MetaMask</li>
+                <ul>
+                    <li>Ensure you're in the Smart Chain wallet and not Ethereum</li>
+                </ul>
+                <li>Press Import Tokens</li>
+                <li>Paste the contract in the Token Address field</li>
+                <ul>
+                    <li>Everything should autofill</li>
+                </ul>
+                <li>Press Import</li>
+            </ol>
+            <h4>Connect your wallet to Titano</h4>
+            <ol>
+                <li>Visit the Titano <a class="green-color" href="https://app.titano.finance/#/dashboard" target="_blank">dashboard</a></li>
+                <li>Press Connect Wallet</li>
+                <li>Use QR code to connect with your wallet</li>
+            </ol>
+            <h4>Connect to BogSwap</h4>
+            <ol>
+                <li>Visit the Titano <a class="green-color" href="https://app.titano.finance/#/dashboard" target="_blank">dashboard</a></li>
+                <li>Press Swap</li>
+                <ul>
+                    <li>It should take you to a page that's setup to swap BNB for Titano</li>
+                </ul>
+                <li>Press Connect Wallet</li>
+                <li>Use WalletConnect to connect to your MetaMask wallet</li>
+            </ol>
+        </div>
+
+        <div class="details-section">
+            <h2 class="green-color">Purchasing</h2>
+            <h4>Acquire BNB</h4>
+            <ul>
+                <li>Purchase on your preferred exchange or swap another coin for it</li>
+                <li>There will be a hold period if you purchase on Binance with USD</li>
+            </ul>
+            <h4>Send BNB to your wallet</h4>
+            <ol>
+                <li>Open MetaMask</li>
+                <li>Select the BNB token</li>
+                <li>Select Receive</li>
+                <li>Copy the address</li>
+                <ul>
+                    <li>Use this to send BNB from the exchange to your wallet</li>
+                    <li>Verify that the BNB has been received before moving on</li>
+                </ul>
+            </ol>
+            <h4>Swap BNB for Titano</h4>
+            <ol>
+                <li>Go back to <a class="green-color" href="https://app.bogged.finance/bsc/swap?tokenIn=BNB&tokenOut=0xBA96731324dE188ebC1eD87ca74544dDEbC07D7f" target="_blank">BogSwap</a></li>
+                <ul>
+                    <li>Since your wallet should be connect at this point, you should see your BNB balance</li>
+                    <li>Ensure BNB and Titano are in the From and To field</li>
+                </ul>
+                <li>Choose the amount of BNB that you want to swap</li>
+                <li>Leave slippage at 1%</li>
+                <li>Press Swap</li>
+                <ul>
+                    <li>It should open up your wallet and prompt you to confirm</li>
+                    <li>If it doesn't, try closing your wallet and trying again</li>
+                    <li>If it fails or you get an error, up the Slippage</li>
+                </ul>
+            </ol>
+        </div>
+
+        <div class="details-section">
+            <h2 class="green-color">Monitoring</h2>
+            <ul>
+                <li>You can monitor your account <a class="green-color" href="https://app.titano.finance/#/account" target="_blank">here</a></li>
+            </ul>
+        </div>
+    </main>
 
 </body>
+
 </html>
