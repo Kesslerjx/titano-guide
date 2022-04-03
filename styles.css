@@ -14,7 +14,14 @@ a:visited {
     color: lightblue;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 3rem;
+}
+
 header {
+    grid-column: 1 / 3;
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
@@ -35,16 +42,15 @@ header {
     color: var(--green-color);
 }
 
-main {
+.details {
+    grid-column: 2 / 3;
     display: grid;
-    grid-template-columns: 1fr 4fr;
     gap: 50px;
 }
 
 .details-section {
     -webkit-appearance: none;
     padding: 15px 30px;
-    margin: 50px 0;
     border-radius: 15px;
     box-shadow: 0 0 1.5rem rgba(97, 206, 112, 0.6);
 }
@@ -52,7 +58,6 @@ main {
 .sidebar {
     border-radius: 15px;
     box-shadow: 0 0 1.5rem rgba(97, 206, 112, 0.6);
-    margin: 50px 0
 }
 
 /*
