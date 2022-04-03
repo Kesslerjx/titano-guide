@@ -31,8 +31,14 @@ header {
     text-align: center;
 }
 
-.green {
+.green-color {
     color: var(--green-color);
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 50px;
 }
 
 .details-section {
@@ -41,6 +47,12 @@ header {
     margin: 50px 0;
     border-radius: 15px;
     box-shadow: 0 0 1.5rem rgba(97, 206, 112, 0.6);
+}
+
+.sidebar {
+    border-radius: 15px;
+    box-shadow: 0 0 1.5rem rgba(97, 206, 112, 0.6);
+    margin: 50px 0
 }
 
 /*
